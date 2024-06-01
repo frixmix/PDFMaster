@@ -1,0 +1,43 @@
+﻿#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    #drop-area.highlight {
+        border-color: blue;
+        background-color: rgba(0,0,255,0.1);
+    }
+
+#file-list {
+    margin-top: 15px;
+}
+
+    #file-list ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #file-list li {
+        margin-bottom: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #333;
+    }
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+    .button:hover {
+        background: #0056b3;
+    }
